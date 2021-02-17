@@ -1,0 +1,13 @@
+Procedure:
+A procedure is a stored query that can be reused.
+
+Trigger:
+A trigger is a procedure that can be triggered on an event(insertion, deletion, updation in some specific table).
+
+View:
+A view is a virtual table that is formed using data from multiple existing tables.
+
+Function:
+It contains a set of SQL statements that take input and returns some output.
+
+ 

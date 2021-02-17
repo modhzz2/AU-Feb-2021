@@ -1,0 +1,30 @@
+Natural join:
+A natural join joins two table names on the basis of same attribute(column) names. Unlike other joins, it does not require the user to explicitly specify the 
+columns on which the joins are to be made.
+Ex.
+In case you want roll numbers of all the students that got scholarship(which will be evident if their roll nos are in the scholarship table), then you would use a 
+natural join and you will obtain their rollnos.
+Displayed in snapshot 15a
+
+
+
+Left outer join:
+A left outer join lists all the records from the first table even though we do not find a match while joining it with the second table.
+Ex.
+Now, if you want to know how many students in your school got scholarship(which will be evident if their roll nos are in the scholarship table) as well as the ones 
+who did not receive it and then alert all the students then you can use left outer join. Because, even if we do not find a match in the scholarship table we have to 
+contact them so we need their mobile numbers.
+Displayed in snapshot 15b
+
+
+
+Right outer join:
+A right outer join lists all the records from the second table even though we do not find a match while joining it with the first table.
+
+
+
+Full outer join:
+A full outer join lists all the records from both the tables even though we do not find a match with the other table.
+Ex.
+Suppose we have 2 tables 'A' and 'B' and we have to find how many total entries are present without overcounting. In this case, we can use the full outer join as this
+join would not recount already matched rows. 

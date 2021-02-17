@@ -1,0 +1,11 @@
+Delete:
+DML command
+Used to delete record(s) from table
+
+Drop:
+DDL command
+Used to delete whole table, procedures and other entities.
+
+Truncate:
+DDL command 
+Used to delete all the data from the table but the structure of the table(attributes) is preserved.

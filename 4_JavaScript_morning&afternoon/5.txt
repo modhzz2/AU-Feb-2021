@@ -1,0 +1,12 @@
+'==' tests for equality after converting both sides to compatible types.
+For example, 
+3=="3" will return true even though one is a string and the other one is a integer.
+
+
+
+
+
+'===' tests for equality without any type conversions(as it is) 
+For example, 
+3==="3" will return false.
+It is more strict. It should be preferred. 

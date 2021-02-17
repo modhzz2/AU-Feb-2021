@@ -1,0 +1,14 @@
+function helper(arr){
+    arr.sort(function(a, b) {
+        return a - b;
+    });
+    for(i in arr){
+        arr[i]=arr[i]*10;
+    }
+    var res=[];
+    for(i in arr){
+        if(arr[i]%3==0)
+            res.push(arr[i]);
+    }
+    return res;
+}
