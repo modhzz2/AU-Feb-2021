@@ -1,0 +1,13 @@
+
+<div>
+    <table style="background-color:gray; table-layout: fixed; width: 80%;" border="3px" *ngIf="logs.length > 0">
+        <tr style="font-weight: 700;">
+            <th>Time </th>
+            <th>Entered text</th>
+        </tr>
+        <tr style="font-weight:400;" *ngFor="let log of logs">
+            <td style="padding:20px;">{{ log.key_up_at | date: 'long' }}</td>
+            <td style="padding:20px; word-wrap: break-word;">{{log.text}}</td>
+        </tr>
+    </table>
+</div>

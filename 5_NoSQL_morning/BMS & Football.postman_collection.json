@@ -1,0 +1,181 @@
+{
+	"info": {
+		"_postman_id": "505c6d97-a4ce-4ead-a103-b0557cb54bcd",
+		"name": "BMS & Football",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getBmsById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8080/Bms/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Bms",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addBms",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\": \"5\",\r\n    \"moviename\": \"Little Women\",\r\n    \"city\": [\r\n        \"Sydney\",\r\n        \"Rome\"\r\n    ],\r\n    \"certification\": \"a\"\r\n}"
+				},
+				"url": {
+					"raw": "https://localhost:8080/Bms",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Bms"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getBmsByMoviename",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/Bms/mn/Dangal",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Bms",
+						"mn",
+						"Dangal"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getMoviesByCityName",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/Bms/city/Vadodara",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Bms",
+						"city",
+						"Vadodara"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addPlayer",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "getPlayerById",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/Football/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"Football",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getPlayerByName",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "getPlayerWithGoalsMoreThan",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}

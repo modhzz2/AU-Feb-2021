@@ -1,0 +1,5 @@
+package com.example.au.couchbasedemo.controller;
+
+public class BmsController {
+
+}
