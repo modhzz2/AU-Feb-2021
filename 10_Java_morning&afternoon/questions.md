@@ -10,7 +10,7 @@
 4 Serialization
 	Write a programme to serialize 3 fields out of 5 and deserialize it. Use UUID to prvent object mutation.
   
-5 Write a Java program to print the result of the following operations. 
+5 Write a Java program to print the result of the following operations:
   a)-5 + 8 * 6   
   b) (55+9) % 9 
   c) 20 + -3*5 / 8 
