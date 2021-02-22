@@ -7,5 +7,8 @@
 <workingSet editPageId="org.eclipse.jdt.internal.ui.DynamicSourcesWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613884499696_1" label="Java Test Sources" name="Java Test Sources">
 <item elementID="=spring-boot-couchbase-example/src\/test\/java" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 </workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613993957848_3" label="MyNewMavenArtifactId" name="MyNewMavenArtifactId">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/MyNewMavenArtifactId" type="4"/>
+</workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1613884509884_2" label="Window Working Set" name="Aggregate for window 1613884509884"/>
 </workingSetManager>
