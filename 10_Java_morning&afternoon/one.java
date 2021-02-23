@@ -1,15 +1,17 @@
-import java.util.*;  
+import java.util.regex.*;
 
-public class one{
+class one {
+  public static void main(String[] args) {
+   
+      String input="abbaaabbab", source="a[ba]{3}a", target="xxx";
 
-     public static void main(String []args){
-        Scanner sc=new Scanner(System.in);
-        String input, source, target;
-        input=sc.nextLine();
-        source=sc.nextLine();
-        target=sc.nextLine();
-        
-        String ans=input.replaceAll(source, target);
-        System.out.println(ans);
-     }
+	  Pattern p = Pattern.compile(source, Pattern.CASE_INSENSITIVE);
+      Matcher m = p.matcher(input);
+
+      String output=input;
+      if(m.find())
+        output=input.replaceAll(source, target);
+	  
+      System.out.println(output);
+  }
 }
