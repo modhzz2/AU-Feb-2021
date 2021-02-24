@@ -3,55 +3,55 @@ import java.util.*;
 
 class example implements Serializable {
     private static final long serialVersionUID = 1L;
-	transient int a, b, c;
-    int d, e;
+	transient int a1, a2, a3;
+    int a4, a5;
 	 
-	public example(int a, int b, int c, int d, int e)
+	public example(int a1, int a2, int a3, int a4, int a5)
 	{
-	    this.a = a;
-		this.b = b;
-        this.c = c;
-        this.d = d;
-        this.e = e;
+	    this.a1 = a1;
+		this.a2 = a2;
+        this.a3 = a3;
+        this.a4 = a4;
+        this.a5 = a5;
 	}
 }
 
  public class four{
-     static void helper(example e){
-         System.out.println("Value of a:"+e.a);
-         System.out.println("Value of b:"+e.b);
-         System.out.println("Value of c:"+e.c);
-         System.out.println("Value of d:"+e.d);
-         System.out.println("Value of e:"+e.e);
+     static void helper(example ex){
+         System.out.println("Value of a1:"+ex.a1);
+         System.out.println("Value of a2:"+ex.a2);
+         System.out.println("Value of a3:"+ex.a3);
+         System.out.println("Value of a4:"+ex.a4);
+         System.out.println("Value of a5:"+ex.a5);
          System.out.println();
      } 
 	public static void main(String []args){
-		example e = new example(23, 42, 123, 43, 87);
+		example ex = new example(23, 42, 123, 43, 87);
 		try {
 			FileOutputStream file = new FileOutputStream("example_file.txt");
 			ObjectOutputStream out = new ObjectOutputStream(file);
-			out.writeObject(e);
+			out.writeObject(ex);
 			out.close();
 			file.close();
 			System.out.println("Data before deserialization:\n ");
-            helper(e);
+            helper(ex);
 		}
 		 catch (Exception e) {
-			 System.out.println("Exception Caught");
+			 System.out.println("Serialization exception Caught");
 		 }
-		 e = null;
+		 ex = null;
 		 try {
 			 System.out.println("\nDeserializing\n");
-			 FileInputStream file = new FileInputStream("dataFile.txt");
+			 FileInputStream file = new FileInputStream("example_file.txt");
 			 ObjectInputStream in = new ObjectInputStream(file);
-			 e = (example) in.readObject();
+			 ex = (example) in.readObject();
 			 in.close();
 			 file.close();
 			 System.out.println("\n\nData after deserialization:\n ");
-			 display(e);
-		 }
+			 helper(ex);
+		}
 		 catch (Exception e) { 
-			 System.out.println("Exception Caught");
+			 System.out.println("Deserialization Exception Caught");
 		 }
 	 }
 	 
