@@ -6,7 +6,7 @@ Add a search functionality.
 
 
 <h2> <br> Prerequisite: </h3>
-Please install [fuse](https://fusejs.io/) by pasting the following command:
+Please install  <div><a href="https://fusejs.io/">fuse</a> </div> by pasting the following command:
 npm install fuse.js 
 
 
