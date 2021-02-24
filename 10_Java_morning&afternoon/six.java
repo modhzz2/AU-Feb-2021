@@ -2,7 +2,7 @@
 
 public class six {
     public static void main(String[] args) {
-        int l=30, h=30;
+        int l=55, h=30;
         
         for(int i=0; i<h; i++){
             if(i<h/2){

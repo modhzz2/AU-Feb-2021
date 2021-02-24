@@ -23,7 +23,7 @@ public class three{
        
 	static void helper(int i)throws PrimeNoException{  
         if(checkPrime(i))  
-            throw new PrimeNoException("prime number detected");   
+            throw new PrimeNoException("prime number detected"+i);   
     }  
          
     public static void main(String args[]){  
