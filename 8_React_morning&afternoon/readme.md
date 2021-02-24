@@ -4,8 +4,10 @@ List items and when user click user should navigate to new route where user can 
 Add a search functionality.
 
 
+
 <h3> Prerequisite: </h3>
-Please install [fuse.js](https://fusejs.io/) by pasting the following command:
+Please install [fuse](https://fusejs.io/) by pasting the following command:
 npm install fuse.js
+
 
 <h3> Screenshots: </h3>
