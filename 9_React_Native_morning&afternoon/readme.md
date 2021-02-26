@@ -1,5 +1,4 @@
 <h1> <br> Screenshots:<br> <br></h1>
-<img src="./photos/1.jpg" height="5px"> </img> <br> <br>
 
 <p float="left">
   <img src="./photos/1.jpg" width="310" />
