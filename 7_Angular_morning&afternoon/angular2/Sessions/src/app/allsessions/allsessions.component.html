@@ -1,0 +1,19 @@
+<div class="row">
+    <div class="col-xs-12 col-sm-4" style="width: 30%;">
+      <div>
+        <a
+          routerLink="{{i}}"
+          class="list-group-item"
+          *ngFor="let session of allSessions; let i = index">
+          <b>{{ session.sessionName }}</b>
+        </a>
+
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-8" >
+        <router-outlet></router-outlet>
+    </div>
+
+
+  </div>
+  

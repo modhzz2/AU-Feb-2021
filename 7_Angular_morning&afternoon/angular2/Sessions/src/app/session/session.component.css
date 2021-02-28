@@ -1,0 +1,21 @@
+.mycard{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.col-sm-4{
+    margin-left: 30%;
+}
+.btn{
+    background-color: #66FCF1;
+    color: #1F2833;
+    font-size: 18px;
+    font-style: italic;
+    height: 40px;
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+
+    .del{
+        margin-left: -48%;
+    }

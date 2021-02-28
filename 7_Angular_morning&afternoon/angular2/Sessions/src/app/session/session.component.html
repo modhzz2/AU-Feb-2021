@@ -1,0 +1,19 @@
+<mat-card class="mycard" style="background-color: #66FCF1; color: #1F2833; width: 70%; font-family: 'Courier New', Courier, monospace;">
+    <mat-card-title style="font-size: larger;"><b>{{currentSession.sessionName}}</b></mat-card-title>
+    <mat-card-content>
+        <p>{{currentSession.description}}</p>
+    </mat-card-content>
+    <h3><i>By {{currentSession.instructorName}}</i></h3>
+</mat-card>
+
+<div class="container" style="width: 100%;">
+    <div class="row">
+        <div class="col-sm-4">
+            <br>
+            <a routerLink="edit" class="btn">Edit</a>
+            <div class="del">
+            <button (click)="deleteSession()" class="btn btn-danger mycard" style="border: none; background-color: red;">Delete</button>
+                </div>
+        </div>
+    </div>
+</div>
