@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-12">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files(2)/javax.servlet-api-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files(1)/spring-core-5.2.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files(1)/spring-jcl-5.2.13.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/commons-io-2.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/commons-lang3-3.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/core-utils-4.1.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/jackson-annotations-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/jackson-core-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/jackson-databind-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/jackson-datatype-jsr310-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/jackson-module-parameter-names-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/jsr250-api-1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/spring-aop-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/spring-beans-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/spring-context-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/spring-core-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/spring-expression-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/spring-jcl-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/spring-mvc-4.1.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/spring-web-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files/spring-webmvc-5.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/jar_files(4)/aspectjweaver-1.9.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/modhv/Downloads/aspectj-1.9.6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
