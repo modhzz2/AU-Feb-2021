@@ -17,7 +17,7 @@ public class MainApp {
 		locationService.getCity().setName("Baroda");
 		System.out.println(locationService.getCity().getName());
 
-		// locationService.getCountry().setName("India ");
+		locationService.getCountry().setName("India ");
 
 	}
 }
